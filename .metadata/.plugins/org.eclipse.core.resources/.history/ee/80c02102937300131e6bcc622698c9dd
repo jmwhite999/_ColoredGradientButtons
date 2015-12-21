@@ -1,0 +1,59 @@
+package com.krisviceral;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+
+public class AMS extends Activity {
+	private String TAG = "AMS";
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        Log.i(TAG, "The main activity has started");
+        
+        View playButton = findViewById(R.id.play_btn);
+        playButton.setOnClickListener(this);
+        View statsButton = findViewById(R.id.player_data_btn);
+        statsButton.setOnClickListener(this);
+        View highscoreButton = findViewById(R.id.highscore_btn);
+        highscoreButton.setOnClickListener(this);
+        View optionsButton = findViewById(R.id.options_btn);
+        optionsButton.setOnClickListener(this);        
+        
+    }
+    
+
+	public void onClick(View v) {
+		switch(v.getId())
+		{
+			case R.id.play_btn:
+			{
+				//open the next UI Activity/Start the Game
+				Intent i = new Intent(this, Game.class);
+				startActivity(i);
+				break;
+			}
+				
+			case R.id.player_data_btn:
+			{
+				//open UI for player data
+				break;
+			}
+			case R.id.highscore_btn:
+			{
+				//show high score UI
+				break;
+			}
+			case R.id.options_btn:
+			{
+				//show options UI
+				break;
+			}			
+		}		
+	}    
+    
+}

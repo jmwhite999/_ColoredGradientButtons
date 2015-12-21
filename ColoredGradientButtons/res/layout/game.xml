@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textViewId1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/frame"
+        android:paddingTop="300dp"
+        android:textColor="#000000" />
+
+  </LinearLayout>

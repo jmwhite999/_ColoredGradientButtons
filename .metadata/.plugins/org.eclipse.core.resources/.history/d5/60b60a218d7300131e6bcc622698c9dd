@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="button_label">I\'m a button</string>
+    <string name="app_name">AMS</string>
+	<string name="play_label">Play</string>
+	<string name="player_data_label">Stats</string>
+	<string name="highscore_label">Highscore</string>
+	<string name="options_label">Options</string>
+
+</resources>

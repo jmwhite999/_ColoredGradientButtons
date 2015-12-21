@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="button_label">I\'m a button</string>
+    <string name="app_name">JMClrdBtnsApp</string>
+    <string name="frame">This is view 2: After red button pressed (use back arrow  icon down below to go back)</string>
+	<string name="btnlabel1">Button1</string>
+	<string name="btnlabel2">Button2</string>
+	<string name="btnlabel3">Button3</string>
+	<string name="btnlabel4">Button4</string>
+	<string name="btnlabel5">Button5</string>
+	
+</resources>
